@@ -1,0 +1,11 @@
+[package]
+name = "mini-event-bus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+async-trait = "0.1.81"
+spinners = "4.1.1"
+thiserror = "1.0.63"
+tokio = { version = "1.39.2", features = ["rt", "rt-multi-thread", "sync", "macros", "signal", "time"] }
